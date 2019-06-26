@@ -1,4 +1,4 @@
-'''Finding smallest value'''
+'''Finding smallest value using None variable'''
 
 smallest = None
 print('Before')
