@@ -30,6 +30,15 @@ url = input('Enter- ')
 html = urllib.request.urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html,'html.parser')
 
+#Retrieve all of the anchor tags 
+#tags = soup('a')
+#for tag in tags:
+    # Look at the parts of a tag
+   # print('TAG:', tag)
+    #print('URL:', tag.get('href', None))
+    #print('Contents:', tag.contents[0])
+   # print('Attrs:', tag.attrs)
+    
 #Retrieve all anchor tags
 tags = soup('a')
 for tag in tags:
