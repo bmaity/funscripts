@@ -70,7 +70,8 @@ for link in range(0,int(count)):
         if number == int(position):
             #print(number)
             url = tag.get('href')
+            print("Retrieving:",url)
             if link == int(count)-1:
                 #print(link)
-                print(tag.contents[0])
+                print("The answer to the assignment for this execution is",tag.contents[0])
                 break
