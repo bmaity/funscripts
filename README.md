@@ -1,2 +1,2 @@
 # funscripts
-learning scripts (python, JSON etc)
+This is my owne learning about few basic scripts (python, JSON etc)
